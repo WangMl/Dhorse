@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>中国农业银行-南阳路支行</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="{{ page.base_url }}docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Docs master nav -->
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">中国农业银行-南阳路支行</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+              	<li class="dropdown active">
+                  <a href="admin.html" data-hover="dropdown" >管理中心<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="admin-home.html">主业管理</a></li>
+                    <li><a href="admin-recommend.html">重点推荐管理</a></li>
+                    <li><a href="admin-bank-show.html">支行展示管理</a></li>
+                    <li><a href="admin-knowledge.html">理财知识管理</a></li>
+                    <li><a href="admin-product.html">金融产品管理</a></li>
+                    <li><a href="admin-message.html">客户预约管理</a></li>
+                  </ul>
+                </li>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="recommend.html" title="">重点推荐</a></li>
+                <li><a href="bank_show.html" title="">支行展示</a></li>
+                <li><a href="knowledge.html" title="">理财知识</a></li>
+                <li class="dropdown">
+                  <a href="product.html" data-hover="dropdown" >产品列表<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="guozhai.html">国债</a></li>
+                    <li><a href="#">保险</a></li>
+                    <li><a href="#">基金</a></li>
+                    <li><a href="#">贵金属</a></li>
+                    <li><a href="#">农行特色产品</a></li>
+                  </ul>
+                </li>
+                <li><a href="appointment.html" title="">客户预约</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">退出</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Docs page layout -->
+    
+    <div class="jumbotron" id="content">
+      <div class="container">
+        <h1>重点推荐管理</h1>
+        <p>管理重点推荐页面的动态图片和文字信息。</p>
+      </div>
+    </div>
+
+
+		<div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+				<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">滚动图片</a>
+            <a href="#" class="list-group-item">静态图片</a>
+          </div>
+        </div><!--/span-->
+        <div class="col-xs-12 col-sm-9">
+          <button class="btn btn-primary" data-toggle="modal" data-target="#new">添加项目</button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="btn btn-success">在主页显示</button>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<button class="btn btn-danger">删除</button>
+					<button class="btn btn-default pull-right">下一页</button>
+					<div class="pull-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+					<button class="btn btn-default pull-right">上一页</button>
+          <div class="row">
+            <table class="table table-hover">
+            	<thead>
+            		<tr>
+            			<th>选择</th>
+            			<th>标题</th>
+                  <th>日期</th>
+            			<th>简介</th>
+            			<th>正文</th>
+                  <th>上传图片</th>
+            		</tr>
+            	</thead>
+            	<tbody>
+            		<tr>
+            			<td><input type="checkbox"></td>
+            			<td>文章标题1</td>
+            			<td>2013-11-10</td>
+            			<td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#desc">查看/编辑简介</button></td>
+            			<td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#detail">查看/编辑正文</button></td>
+            			<td><button class="btn btn-success btn-sm" data-toggle="modal" data-target="#pic">查看</button></td>
+            		</tr>
+            		<tr>
+                  <td><input type="checkbox"></td>
+                  <td>文章标题1</td>
+                  <td>2013-11-10</td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#desc">查看/编辑简介</button></td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#detail">查看/编辑正文</button></td>
+                  <td><button class="btn btn-success btn-sm" data-toggle="modal" data-target="#pic">查看</button></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td>文章标题1</td>
+                  <td>2013-11-10</td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#desc">查看/编辑简介</button></td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#detail">查看/编辑正文</button></td>
+                  <td><button class="btn btn-success btn-sm" data-toggle="modal" data-target="#pic">查看</button></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td>文章标题1</td>
+                  <td>2013-11-10</td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#desc">查看/编辑简介</button></td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#detail">查看/编辑正文</button></td>
+                  <td><button class="btn btn-success btn-sm" data-toggle="modal" data-target="#pic">查看</button></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td>文章标题1</td>
+                  <td>2013-11-10</td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#desc">查看/编辑简介</button></td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#detail">查看/编辑正文</button></td>
+                  <td><button class="btn btn-success btn-sm" data-toggle="modal" data-target="#pic">查看</button></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td>文章标题1</td>
+                  <td>2013-11-10</td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#desc">查看/编辑简介</button></td>
+                  <td><button class="btn btn-default btn-sm" data-toggle="modal" data-target="#detail">查看/编辑正文</button></td>
+                  <td><button class="btn btn-success btn-sm" data-toggle="modal" data-target="#pic">查看</button></td>
+                </tr>
+            	</tbody>
+            </table>
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+      </div>  
+
+
+    <!-- Footer
+    ================================================== -->
+    <div class="container">  
+    <footer>
+        <div class="row">
+        <div class="col-md-2"></div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-2">
+                <h4>重点推荐</h4>
+                <ul class="list-unstyled">
+                  <li><a href="">重点新闻一</a></li>
+                  <li><a href="">重点新闻二</a></li>
+                  <li><a href="">重点新闻三</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2">
+                <h4>支行展示</h4>
+                <ul class="list-unstyled">
+                  <li><a href="">支行新闻</a></li>
+                  <li><a href="">最新政策</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2">
+                <h4>理财知识</h4>
+                <ul class="list-unstyled">
+                  <li><a href="">基本知识普及</a></li>
+                  <li><a href="">支付与银行卡知识</a></li>
+                  <li><a href="">人民币与反假币</a></li>
+                  <li><a href="">国库知识</a></li>
+                  <li><a href="">征信知识</a></li>
+                  <li><a href="">反洗钱知识</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2">
+                <h4>产品列表</h4>
+                <ul class="list-unstyled">
+                  <li><a href="">国债</a></li>
+                  <li><a href="">保险</a></li>
+                  <li><a href="">基金</a></li>
+                  <li><a href="">贵金属</a></li>
+                  <li><a href="">农行特色产品</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2">
+                <h4>常用链接</h4>
+                <ul class="list-unstyled">
+                  <li><a href="">总行网站</a></li>
+                  <li><a href="">个人网银</a></li>
+                  <li><a href="">客户预约</a></li>
+                  <li><a href="">联系我们</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <p class="pull-right"><a href="#">回到顶部</a></p>
+        <p>&copy; 2013 中国农业银行</p>
+      </footer>
+    </div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="pic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        <h4 class="modal-title" id="myModalLabel">文章标题1&nbsp;的图片</h4>
+		      </div>
+		      <div class="modal-body">
+		        <ul>
+		        	<li>图片路径：<button class="btn btn-default btn-sm pull-right">更改</button></li>
+              <p>C:\Users\Administrator\Desktop\picture.png</p>
+		        	<li>图片显示：</li><img src="img/1.jpg" width="500">
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">保存修改</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+    <div class="modal fade" id="desc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">文章标题1&nbsp;的简介</h4>
+          </div>
+          <div class="modal-body">
+            <textarea class="form-control" rows="10">简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容</textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">保存修改</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">文章标题1&nbsp;的正文</h4>
+          </div>
+          <div class="modal-body">
+            <textarea class="form-control" rows="10">正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容
+            
+            正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容
+            </textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">保存修改</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="new" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">添加项目</h4>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li display="inline-block">标题：</li><input type="text" class="form-control" placeholder="请输入标题">
+              <li>图片：</li><button class="btn btn-default">上传</button>
+              <li>简介：</li><textarea class="form-control" rows="3"></textarea>
+              <li>详细内容：</li><textarea class="form-control" rows="7"></textarea>
+            </ul>
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">保存修改</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/dropdown-hover.js"></script>
+
+
+<!-- Analytics
+================================================== -->
+
+
+  </body>
+</html>
